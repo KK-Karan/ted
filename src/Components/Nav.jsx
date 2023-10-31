@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import {auth, provider} from "./config.jsx"
 import {signInWithPopup} from "firebase/auth"
 
@@ -53,6 +53,13 @@ return (
     </button>
     </div>
     }
+    {/* <a href="https://ted-one.vercel.app/oauth/authorise
+    &client_id=ZrukKNCY6Nn5Sr5fyamr3fvwHeJxJDp7GrUHOZUS
+    &redirect_uri='https://ted-one.vercel.app/'
+    ">Channeli Login</a> */}
+    <a href="https://ted-one.vercel.app/oauth/authorise?client_id=ZrukKNCY6Nn5Sr5fyamr3fvwHeJxJDp7GrUHOZUS&redirect_uri='https://ted-one.vercel.app/'">
+     Channeli Login
+     </a>
     </li>
       
       
